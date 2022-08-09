@@ -1,4 +1,6 @@
 # ESP32CAM_MQTT-Basic
+
+[Actualización 09-ago-22 por [Alejandro Domínguez](https://github.com/Alejandro-Dom)]
 Este repositorio contiene el programa básico para conectar el ESP32CAM a MQTT, enviar y recibir mensajes.
 
 Puedes encontrar el curso correspondiente a este ejercicio en el siguiente enlace.
@@ -6,6 +8,7 @@ Puedes encontrar el curso correspondiente a este ejercicio en el siguiente enlac
 https://edu.codigoiot.com/
 
 ### Requisitos
+
 Para que el código de este repositorio funcione, es necesario contar con lo siguiente:
 
 - ESP32CAM AI-Thinker
@@ -35,7 +38,7 @@ Puedes obtener la biblioteca PubSubClient desde el siguiente enlace.
 
 https://github.com/knolleary/pubsubclient
 
-El flow de NodeRed lee en el tema `esp32/data` y publica en el tema `esp32/output`, por lo que deberás configurar los nodos MQTT para conectarse a estos temas y al broker de tu elección.
+El flow de NodeRed lee en el tema `codigoIoT/ejemplo/mqtt` y publica en el tema `codigoIoT/ejemplo/mqttin`, por lo que deberás configurar los nodos MQTT para conectarse a estos temas y al broker de tu elección.
 
 Los nodos switch y text de la sección dashboard deberán tener correctamente configurados el tab y group en el que se visualizarán.
 
