@@ -72,7 +72,6 @@ void setup() {
   if (WiFi.status () > 0){
   digitalWrite (statusLedPin, LOW);
   }
-  --
   delay (1000); // Esta espera es solo una formalidad antes de iniciar la comunicación con el broker
 
   // Conexión con el broker MQTT
